@@ -25,14 +25,14 @@ author:
   avatar           : "profile.png"
   name             : "Seth Labadie"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Data Scientist at the U.S. Government"
   location         : "Washington, DC"
   employer         : "U.S. Government"
-  uri              : "www.dod.mil"
+  uri              : # "www.dod.mil"
   email            : "sethlabadie@gmail.com"
 
   # Academic websites
-  academia         : URL
+  academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
