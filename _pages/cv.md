@@ -62,3 +62,5 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
+<embed src="https://sethlabadie.github.io/files/Resume_Labadie_20250521_Data_Scientist.pdf" type="application/pdf" width="100%" />
