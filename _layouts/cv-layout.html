@@ -1,39 +1,35 @@
 ---
-layout: compress
+layout: default
 ---
+<!-- _layouts/cv.html -->
+        <div class="post">
 
-{% include base_path %}
+          <header class="post-header">
+            <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+            <p class="post-description">{{ page.description }}</p>
+          </header>
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %} | {{ site.name | default: site.title }}</title>
-    {% include head.html %}
-    {% include head/custom.html %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/cv-layout.css">
-  </head>
+          <article>
+            <div class="cv">
+              {% for entry in site.data.cv %}
+                <div class="card mt-3 p-3">
+                  <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+                  <div>
+                  {% if entry.type == "list" %}
+                    {% include cv/list.html %}
+                  {% elsif entry.type == "map" %}
+                    {% include cv/map.html %}
+                  {% elsif entry.type == "nested_list" %}
+                    {% include cv/nested_list.html %}
+                  {% elsif entry.type == "time_table" %}
+                   {% include cv/time_table.html %}
+                  {% else %}
+                    {{ entry.contents }}
+                  {% endif %}
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+          </article>
 
-  <body class="cv-layout">
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    <div id="main" role="main">
-      <div class="container">
-        {{ content }}
-      </div>
-    </div>
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
-</html>
+        </div>
