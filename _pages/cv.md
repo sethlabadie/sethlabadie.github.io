@@ -33,5 +33,7 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
+If the embedded PDF below does not load properly, you can <u><a href="https://sethlabadie.github.io/files/Resume_Labadie_20250521_Data_Scientist.pdf">download it here.</a></u>
+<br/>
 
 <embed src="https://sethlabadie.github.io/files/Resume_Labadie_20250521_Data_Scientist.pdf" type="application/pdf" width="100%" />
