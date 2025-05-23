@@ -1,6 +1,6 @@
 ---
 title: "Tic Tac Toe"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/tictactoe-winning.png'>"
+excerpt: "This is a simple tic tac toe game implemented in Python. <br/><a href='https://github.com/sethlabadie/TicTacToe' target='_blank' rel='noopener'><img src='/images/tictactoe-winning.png'></a>"
 collection: portfolio
 ---
 
