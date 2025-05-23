@@ -9,11 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-testing
 If the embedded PDF below does not load properly, you can <u><a href="https://sethlabadie.github.io/files/Resume_Labadie_20250521_Data_Scientist.pdf">download it here.</a></u>
 <br/>
 
-<embed src="https://sethlabadie.github.io/files/Resume_Labadie_20250521_Data_Scientist.pdf" type="application/pdf" width="100%" height="100vh" />
+<embed src="https://sethlabadie.github.io/files/Resume_Labadie_20250521_Data_Scientist.pdf" type="application/pdf" width="100%" height="800px" />
 
 
 Education
@@ -96,7 +95,7 @@ Key Technical Skills
 <table>
     <tr>
         <td valign="top">
-            <h3>Programming Languages</h3>
+            <h2>Programming Languages</h2>
             <ul>
                 <li>Python</li>
                 <li>SQL</li>
@@ -104,7 +103,7 @@ Key Technical Skills
             </ul>
         </td>
         <td valign="top">
-            <h3>Data Science Libraries</h3>
+            <h2>Data Science Libraries</h2>
             <ul>
                 <li>NumPy</li>
                 <li>Pandas</li>
@@ -115,7 +114,7 @@ Key Technical Skills
     </tr>
     <tr>
         <td valign="top">
-            <h3>Data Science Tools</h3>
+            <h2>Data Science Tools</h2>
             <ul>
                 <li>Amazon Web Services (AWS)</li>
                 <li>Tableau, Power BI</li>
@@ -125,7 +124,7 @@ Key Technical Skills
             </ul>
         </td>
         <td valign="top">
-            <h3>Data Skills</h3>
+            <h2>Data Skills</h2>
             <ul>
                 <li>Machine Learning</li>
                 <li>Business Analysis</li>
