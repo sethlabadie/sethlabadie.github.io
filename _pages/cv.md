@@ -95,7 +95,7 @@ Key Technical Skills
 <table>
     <tr>
         <td valign="top">
-            <h2>Programming Languages</h2>
+            <h4 style="margin-top:0;margin-bottom:0.5em;">Programming Languages</h4>
             <ul>
                 <li>Python</li>
                 <li>SQL</li>
@@ -103,7 +103,7 @@ Key Technical Skills
             </ul>
         </td>
         <td valign="top">
-            <h2>Data Science Libraries</h2>
+            <h4 style="margin-top:0;margin-bottom:0.5em;">Data Science Libraries</h4>
             <ul>
                 <li>NumPy</li>
                 <li>Pandas</li>
@@ -114,7 +114,7 @@ Key Technical Skills
     </tr>
     <tr>
         <td valign="top">
-            <h2>Data Science Tools</h2>
+            <h4 style="margin-top:0;margin-bottom:0.5em;">Data Science Tools</h4>
             <ul>
                 <li>Amazon Web Services (AWS)</li>
                 <li>Tableau, Power BI</li>
@@ -124,7 +124,7 @@ Key Technical Skills
             </ul>
         </td>
         <td valign="top">
-            <h2>Data Skills</h2>
+            <h4 style="margin-top:0;margin-bottom:0.5em;">Data Skills</h4>
             <ul>
                 <li>Machine Learning</li>
                 <li>Business Analysis</li>
