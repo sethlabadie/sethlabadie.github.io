@@ -1,7 +1,6 @@
 ---
 title: "Tic Tac Toe"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-[![View Project](./assets/img/tictactoe-winning.png)](https://github.com/sethlabadie/TicTacToe)
+excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
