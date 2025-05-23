@@ -1,6 +1,6 @@
 ---
 title: "Tic Tac Toe"
-excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+excerpt: "Short description of portfolio item number 2 <br/><img src='/assets/img/tictactoe-winning.png'>"
 collection: portfolio
 ---
 
